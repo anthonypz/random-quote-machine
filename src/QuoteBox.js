@@ -13,7 +13,7 @@ export default function QuoteBox({ quote, toggle }) {
         id="author"
         className="w-4/5 sm:w-full text-right text-xl text-slate-500 pt-4"
       >
-        - {quote.author}
+        &mdash; {quote.author}
       </p>
       <div className="flex justify-between w-full pt-10">
         <button className="bg-blue-500 shadow-md active:bg-blue-700 rounded px-5 py-3 text-white font-medium">
