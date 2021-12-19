@@ -9,8 +9,8 @@ A simple website that displays a randomly generated quote. This project was buil
 
 ## Screenshots
 
-![App Screenshot](docs/images/quote.png)
-![App Screenshot](docs.images/quote2.png)
+<img src="https://github.com/anthonypz/random-quote-machine/blob/main/docs/images/quote.png" height=250>
+<img src="https://github.com/anthonypz/random-quote-machine/blob/main/docs/images/quote2.png height=250>
 
 ## Run Locally
 
