@@ -16,18 +16,19 @@ export default function QuoteBox({ quote, toggle }) {
         &mdash; {quote.author}
       </p>
       <div className="flex justify-between w-full pt-10">
-        <button className="bg-blue-500 shadow-md active:bg-blue-700 rounded px-5 py-3 text-white font-medium">
+        <button className="bg-blue-600 shadow-md active:bg-blue-700 rounded px-5 py-3 text-white w-32 ">
           <a
             id="tweet-quote"
             href={`https://twitter.com/intent/tweet?text="${quote.content}" ${quote.author}`}
             target="_blank"
+            rel="noreferrer"
           >
-            <i className="fab fa-twitter"> Tweet</i>
+            <i className="fab fa-twitter font-medium"> Tweet</i>
           </a>
         </button>
         <button
           id="new-quote"
-          className="bg-blue-500 shadow-md active:bg-blue-700 rounded px-5 py-3 text-white font-medium"
+          className="bg-blue-600 shadow-md active:bg-blue-700 rounded px-5 py-3 text-white font-medium w-32"
           onClick={toggle}
         >
           New Quote
